@@ -344,7 +344,7 @@ public class HousieTickets {
 		}
 
 		try {
-			// quick patch to ensure columns are sorted
+			
 			for (int i = 0; i < 6; i++) {
 				Ticket currTicket = tic[i];
 				currTicket.sortColumns();
